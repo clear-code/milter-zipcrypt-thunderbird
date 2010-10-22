@@ -11,7 +11,7 @@
 		id="milter-zipcrypt-request-button"
 		type="checkbox"
 		label="&MilterZipcrypt.label;"
-		oncommand="toggleMilterZipcryptRequestHeader();"/>
+		oncommand="MilterZipcrypt.toggleRequestHeader();"/>
 </toolbarpalette>
 
 </overlay>

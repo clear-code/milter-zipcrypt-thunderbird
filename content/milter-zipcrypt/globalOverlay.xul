@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="chrome://milter-zipcrypt/content/messengercomposeOverlay.css"?>
+<!DOCTYPE overlay SYSTEM "chrome://milter-zipcrypt/locale/milter-zipcrypt.dtd">
+<overlay id="milter-zipcrypt-request"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://milter-zipcrypt/content/globalOverlay.js"/>
+
+<toolbarpalette id="MsgComposeToolbarPalette">
+	<toolbarbutton
+		id="milter-zipcrypt-request-button"
+		type="checkbox"
+		label="&MilterZipcrypt.label;"
+		oncommand="toggleMilterZipcryptRequestHeader();"/>
+</toolbarpalette>
+
+</overlay>

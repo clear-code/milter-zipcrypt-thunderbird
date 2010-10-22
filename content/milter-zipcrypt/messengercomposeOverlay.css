@@ -1,0 +1,7 @@
+#milter-zipcrypt-request-button {
+	list-style-image: url("chrome://milter-zipcrypt/content/24.png");
+}
+
+[iconsize="small"] #milter-zipcrypt-request-button {
+	list-style-image: url("chrome://milter-zipcrypt/content/16.png");
+}

@@ -1,0 +1,7 @@
+content	YOUR_PACKAGE	jar:chrome/YOUR_PACKAGE.jar!/content/YOUR_PACKAGE/
+
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://YOUR_PACKAGE/content/globalOverlay.xul
+style	chrome://global/content/customizeToolbar.xul	chrome://YOUR_PACKAGE/content/messengercomposeOverlay.css
+
+locale	YOUR_PACKAGE	en-US	jar:chrome/YOUR_PACKAGE.jar!/locale/en-US/YOUR_PACKAGE/
+locale	YOUR_PACKAGE	ja	jar:chrome/YOUR_PACKAGE.jar!/locale/ja/YOUR_PACKAGE/

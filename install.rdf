@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="milter-zipcrypt@clear-code.com"
+                   em:name="MilterZipcrypt"
+                   em:type="2"
+                   em:version="1.0.0"
+                   em:description="Insert a header for MilterZipcrypt"
+                   em:creator="ClearCode Inc."
+                   em:homepageURL="http://www.clear-code.com/"
+                   em:iconURL="chrome://milter-zipcrypt/content/icon.png">
+    <em:targetApplication>
+      <RDF:Description em:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                       em:minVersion="3.0"
+                       em:maxVersion="3.1.*" />
+    </em:targetApplication>
+  </RDF:Description>
+</RDF:RDF>

@@ -59,7 +59,22 @@ var MilterZipcrypt = {
             this.appendRequestHeader();
     },
 
+    init : function() {
+        window.removeEventListener('DOMContentLoaded', this, false);
+        let button = document.getElementById('milter-zipcrypt-request-button');
+        button.checked = false;
+    },
+
+    handleEvent : function(aEvent) {
+        switch (aEvent.type)
+        {
+        case 'DOMContentLoaded':
+            this.init();
+            break;
+        }
+    }
 };
 
+window.addEventListener('DOMContentLoaded', MilterZipcrypt, false);
 
 // vim: ts=4:expandtab:sw=4:sts=4

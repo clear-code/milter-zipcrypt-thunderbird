@@ -2,16 +2,16 @@ var MilterZipcrypt = {
     gHeaderTable : null,
 
     _getSelectItemIndex: function(itemData) {
-        if (gHeaderTable == null) {
-            gHeaderTable = new Object();
+        if (this.gHeaderTable == null) {
+            this.gHeaderTable = new Object();
             let selectElem = document.getElementById("addressCol1#1");
             for (let i = 0; i < selectElem.childNodes[0].childNodes.length; i ++) {
                 let aData = selectElem.childNodes[0].childNodes[i].getAttribute("label");
-                gHeaderTable[aData] = i;
+                this.gHeaderTable[aData] = i;
             }
         }
 
-        return gHeaderTable[itemData];
+        return this.gHeaderTable[itemData];
     },
 
     appendRequestHeader : function() {
